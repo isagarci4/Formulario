@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link href="index.css" rel="stylesheet">
+</head>                         
+<body>
+    <main>
+
+        <h1 id="titulo">Preencha o Formulário</h1>
+        <div id="area">
+            <form id="formulario" autocomplete="off">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div class="grupo-formulario">
+                        <label>Nome:</label>
+                        <input type="text">
+                        <label>Sobrenome:</label>
+                        <input type="text">
+                    </div>
+                    <div class="grupo-formulario">
+                        <label>Nascimento:</label>
+                        <input type="date">
+                    </div>
+                    <div class="grupo-formulario">
+                        <label>RG:</label>
+                        <input type="number">
+                    </div>
+                    <div class="grupo-formulario">
+                        <label>CPF:</label>
+                        <input class="cpf" type="number">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Dados de Endereço</legend>
+                    <div class="grupo-formulario">
+                        <label>Rua:</label>
+                        <input type="text">
+                        <label>Número:</label>
+                        <input type="number">
+                    </div>
+                    <div class="grupo-formulario">
+                        <label>Bairro</label>
+                        <input type="text">
+                    </div>
+                    <div class="grupo-formulario">
+                        <label>Estado:</label>
+                        <select id="estado" name="estado">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                            <option value="EX">Estrangeiro</option>
+                        </select>
+                    </div>
+                    <div class="grupo-formulario">
+                        <label>Cidade:</label>
+                        <input type="text">
+                    </div>
+                    <div class="grupo-formulario">
+                        <label>CEP:</label>
+                        <input class="cep" type="number"> 
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Dados de Login</legend>
+
+                    <div class="grupo-formulario">
+                        <label>E-mail:</label>
+                        <input type="email">
+                    </div>
+                    <div class="grupo-formulario">
+                        <label>Imagem de perfil:</label>
+                        <input type="file">
+                    </div>
+                    <div class="grupo-formulario">
+                        <label>Login do usuário:</label>
+                        <input type="text">
+                    </div>
+                    <div class="grupo-formulario">
+                        <label>Senha:</label>
+                        <input type="password">
+                    </div>
+                    <div class="grupo-formulario">
+                        <label>Confirme a senha:</label>
+                        <input type="password">
+                    </div>
+                </fieldset>
+
+                <div class="botoes-form">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </div>
+
+            </form>
+        </div>
+
+    </main>
+</body>
+</html>

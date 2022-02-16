@@ -1,0 +1,30 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(168, 114, 196);
+}
+
+fieldset{
+    color: rgb(109, 99, 85);
+}
+
+.grupo-formulario{
+    background-color: aliceblue;
+} */
+
+.grupo-formulario label{
+    display: inline-block;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.botoes-form{
+    mangin-top: 10px;
+}
+
+.cpf{
+    width: 150px;
+}
